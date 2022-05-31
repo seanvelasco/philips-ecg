@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<restingecgdata xsi:schemaLocation="http://www3.medical.philips.com PhilipsECG.xsd" status="New" lang="en" locale="US" xmlns="http://www3.medical.philips.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<documentinfo>
+		<documentname>5d937e80-de4e-11ec-1e27-0018b3d20026.xml</documentname>
+		<filename>\Mounted_Volume\Internal Card\PhilipsArchiveInternal\5d937e80-de4e-11ec-1e27-0018b3d20026.xml</filename>
+		<documenttype>PhilipsECG</documenttype>
+		<documentversion>1.04.01</documentversion>
+		<editor/>
+	</documentinfo>
+	<userdefines>
+		<userdefine index="1">
+			<label>Maintenance Drug</label>
+			<value></value>
+		</userdefine>
+		<userdefine index="2">
+			<label>Indication</label>
+			<value></value>
+		</userdefine>
+		<userdefine index="3">
+			<label>ECG Dx</label>
+			<value></value>
+		</userdefine>
+		<userdefine index="4">
+			<label>RequestingMD</label>
+			<value></value>
+		</userdefine>
+		<userdefine index="5">
+			<label>Cardiologist</label>
+			<value></value>
+		</userdefine>
+		<userdefine index="6">
+			<label></label>
+			<value></value>
+		</userdefine>
+		<userdefine index="7">
+			<label></label>
+			<value></value>
+		</userdefine>
+		<userdefine index="8">
+			<label></label>
+			<value></value>
+		</userdefine>
+	</userdefines>
+	<orderinfo priority="">
+		<ordernumber></ordernumber>
+		<uniqueorderid></uniqueorderid>
+		<orderbillingcode></orderbillingcode>
+		<orderremarks>AdmissionID:,CommentsOnScheduledProcedureStep:,CurrentPatientLocation:,EthnicGroup:,InstitutionName:,MedicalAlerts:,Modality:,OperatorName:,OtherPatientID:,PatientInstitutionResidence:,ReasonfortheRequestedProcedure:,ReferringPhysicianName:,RequestedProcedureDescription:,RequestedProcedureID:,RequestedProcedureLocation:,RequestedProcedurePriority:,RequestingPhysician:,ScheduledPerformingPhysiciansName:,ScheduledProcedureStepDescription:,ScheduledProcedureStepID:,ScheduledProcedureStepLocation:,ScheduledProcedureStepStationAET:,ScheduledProcedureStepStationName:,SeriesNumber:,StationName:,StudyDescription:,StudyID:,StudyInstanceUID:,VisitComments:</orderremarks>
+		<reasonfororder></reasonfororder>
+		<drgcategories><drgcategory id=""/></drgcategories>
+		<orderstatus></orderstatus>
+		<inbox></inbox>
+	</orderinfo>
+	<reportinfo date="2022-05-28" time="14:15:28">
+		<reportlabel>STD 12 LEAD</reportlabel>
+		<reportdescription>Standard 12 Lead Report</reportdescription>
+		<reportformat extendedmeasflag="False" printtruncationflag="False">
+			<interpretationformat>Short measurements</interpretationformat>
+			<waveformformat leadsequence="Standard" timesequence="Continuous">
+				<mainwaveformformat nrow="6" ncolumn="2">I II III aVR aVL aVF V1 V2 V3 V4 V5 V6</mainwaveformformat>
+				<rhythmwaveformformat nrhythm="0"></rhythmwaveformformat>
+			</waveformformat>
+		</reportformat>
+		<reportgain>
+			<amplitudegain unit="mm/mv">
+				<overallgain>10.00</overallgain>
+			</amplitudegain>
+			<timegain unit="mm/s">25.00</timegain>
+		</reportgain>
+		<reportbandwidth>
+			<highpassfiltersetting>0.15</highpassfiltersetting>
+			<lowpassfiltersetting>100</lowpassfiltersetting>
+			<notchfiltersetting>60</notchfiltersetting>
+			<notchharmonicssetting>None</notchharmonicssetting>
+			<artifactfilterflag>True</artifactfilterflag>
+			<hysteresisfilterflag>False</hysteresisfilterflag>
+		</reportbandwidth>
+	</reportinfo>
+	<dataacquisition date="2022-05-28" time="14:15:28" statflag="False">
+		<machine machineid="" detaildescription="Philips Medical Products:860392:A.01.05.08">PageWriter TC</machine>
+		<acquirer>
+			<encounterid></encounterid>
+			<operator id=""></operator>
+			<room></room>
+			<bed></bed>
+			<departmentid></departmentid>
+			<departmentname></departmentname>
+			<institutionid></institutionid>
+			<institutionname></institutionname>
+			<facilityid></facilityid>
+			<facilityname></facilityname>
+			<orderingclinician id=""></orderingclinician>
+			<attendingclinician id=""></attendingclinician>
+			<referringclinician id=""></referringclinician>
+		</acquirer>
+		<signalcharacteristics>
+			<samplingrate>500</samplingrate>
+			<resolution>5</resolution>
+			<hipass>0.05</hipass>
+			<lowpass>150</lowpass>
+			<acsetting>60</acsetting>
+			<notchfiltered>False</notchfiltered>
+			<notchfilterfreqs></notchfilterfreqs>
+			<acquisitiontype>10-WIRE</acquisitiontype>
+			<bitspersample>16</bitspersample>
+			<signaloffset>0</signaloffset>
+			<signalsigned>True</signalsigned>
+			<numberchannelsallocated>12</numberchannelsallocated>
+			<numberchannelsvalid>12</numberchannelsvalid>
+			<electrodeplacement>STD</electrodeplacement>
+		</signalcharacteristics>
+	</dataacquisition>
+	<patient criteriaversionforpatientdata="0B">
+		<generalpatientdata>
+			<patientid></patientid>
+			<uniquepatientid/>
+			<MRN></MRN>
+			<name>
+				<lastname>dsh</lastname>
+				<firstname>dash</firstname>
+				<middlename>das</middlename>
+			</name>
+			<age defaultage="50">
+				<dateofbirth>2011-11-11</dateofbirth>
+			</age>
+			<pacestatus>Non paced</pacestatus>
+			<sex>Male</sex>
+			<height>
+				<inch/>
+			</height>
+			<weight>
+				<lb/>
+			</weight>
+		</generalpatientdata>
+		<patientmedicaldata>
+			<bloodpressure>
+				<systolic>
+					<mmHg>11.00</mmHg>
+				</systolic>
+				<diastolic>
+					<mmHg>11.00</mmHg>
+				</diastolic>
+			</bloodpressure>
+		</patientmedicaldata>
+	</patient>
+	<internalmeasurements date="2022-05-28" time="14:15:28" measurementversion="10">
+		<crossleadmeasurements fixedmultpflag="False" multptestvalidflag="False" qrslikeartfflag="False" pacebeatmeasflag="False">
+			<pacepulses>
+			</pacepulses>
+			<pacemode>0</pacemode>
+			<pacemalf>0</pacemalf>
+			<pacemisc>0</pacemisc>
+			<ectopicrhythm>0</ectopicrhythm>
+			<qtintdispersion>0</qtintdispersion>
+			<numberofcomplexes>0</numberofcomplexes>
+			<numberofgroups>0</numberofgroups>
+			<beatclassification></beatclassification>
+			<qamessagecodes>
+				<qamessagecode>None</qamessagecode>
+				<qamessagecode>None</qamessagecode>
+				<qamessagecode>Acceptable trace</qamessagecode>
+				<qamessagecode>None</qamessagecode>
+			</qamessagecodes>
+			<qaactioncode>Poor ECG, retry if possible</qaactioncode>
+			<pfrontaxis/>
+			<phorizaxis/>
+			<i40frontaxis/>
+			<i40horizaxis/>
+			<qrsfrontaxis/>
+			<qrshorizaxis/>
+			<t40frontaxis/>
+			<t40horizaxis/>
+			<stfrontaxis/>
+			<sthorizaxis/>
+			<tfrontaxis/>
+			<thorizaxis/>
+			<atrialrate>0</atrialrate>
+			<lowventrate>0</lowventrate>
+			<meanventrate>0</meanventrate>
+			<highventrate>0</highventrate>
+			<meanprint></meanprint>
+			<meanprseg></meanprseg>
+			<meanqrsdur></meanqrsdur>
+			<meanqtint></meanqtint>
+			<meanqtc></meanqtc>
+			<deltawavecount>0</deltawavecount>
+			<deltawavepercent>0</deltawavepercent>
+			<bigeminycount>0</bigeminycount>
+			<bigeminystring>0</bigeminystring>
+			<trigeminycount>0</trigeminycount>
+			<trigeminystring>0</trigeminystring>
+			<wenckcount>0</wenckcount>
+			<wenckstring>0</wenckstring>
+			<flutterfibcount>0</flutterfibcount>
+			<transpcwrot>0</transpcwrot>
+			<transpinitangle>0</transpinitangle>
+			<transpinitmag>0</transpinitmag>
+			<transpmaxangle>0</transpmaxangle>
+			<transpmaxmag>0</transpmaxmag>
+			<transptermangle>0</transptermangle>
+			<transptermmag>0</transptermmag>
+			<transqrscwrot>0</transqrscwrot>
+			<transqrsinitangle>0</transqrsinitangle>
+			<transqrsinitmag>0</transqrsinitmag>
+			<transqrsmaxangle>0</transqrsmaxangle>
+			<transqrsmaxmag>0</transqrsmaxmag>
+			<transqrstermangle>0</transqrstermangle>
+			<transqrstermmag>0</transqrstermmag>
+			<transtcwrot>0</transtcwrot>
+			<transtinitangle>0</transtinitangle>
+			<transtinitmag>0</transtinitmag>
+			<transtmaxangle>0</transtmaxangle>
+			<transtmaxmag>0</transtmaxmag>
+			<transttermangle>0</transttermangle>
+			<transttermmag>0</transttermmag>
+			<frontpcwrot>0</frontpcwrot>
+			<frontpinitangle>0</frontpinitangle>
+			<frontpinitmag>0</frontpinitmag>
+			<frontpmaxangle>0</frontpmaxangle>
+			<frontpmaxmag>0</frontpmaxmag>
+			<frontptermangle>0</frontptermangle>
+			<frontptermmag>0</frontptermmag>
+			<frontqrscwrot>0</frontqrscwrot>
+			<frontqrsinitangle>0</frontqrsinitangle>
+			<frontqrsinitmag>0</frontqrsinitmag>
+			<frontqrsmaxangle>0</frontqrsmaxangle>
+			<frontqrsmaxmag>0</frontqrsmaxmag>
+			<frontqrstermangle>0</frontqrstermangle>
+			<frontqrstermmag>0</frontqrstermmag>
+			<fronttcwrot>0</fronttcwrot>
+			<fronttinitangle>0</fronttinitangle>
+			<fronttinitmag>0</fronttinitmag>
+			<fronttmaxangle>0</fronttmaxangle>
+			<fronttmaxmag>0</fronttmaxmag>
+			<frontttermangle>0</frontttermangle>
+			<frontttermmag>0</frontttermmag>
+			<sagpcwrot>0</sagpcwrot>
+			<sagpinitangle>0</sagpinitangle>
+			<sagpinitmag>0</sagpinitmag>
+			<sagpmaxangle>0</sagpmaxangle>
+			<sagpmaxmag>0</sagpmaxmag>
+			<sagptermangle>0</sagptermangle>
+			<sagptermmag>0</sagptermmag>
+			<sagqrscwrot>0</sagqrscwrot>
+			<sagqrsinitangle>0</sagqrsinitangle>
+			<sagqrsinitmag>0</sagqrsinitmag>
+			<sagqrsmaxangle>0</sagqrsmaxangle>
+			<sagqrsmaxmag>0</sagqrsmaxmag>
+			<sagqrstermangle>0</sagqrstermangle>
+			<sagqrstermmag>0</sagqrstermmag>
+			<sagtcwrot>0</sagtcwrot>
+			<sagtinitangle>0</sagtinitangle>
+			<sagtinitmag>0</sagtinitmag>
+			<sagtmaxangle>0</sagtmaxangle>
+			<sagtmaxmag>0</sagtmaxmag>
+			<sagttermangle>0</sagttermangle>
+			<sagttermmag>0</sagttermmag>
+			<namedmeasurement>
+				<name>spatialqrstanglemax</name>
+				<value></value>
+			</namedmeasurement>
+			<namedmeasurement>
+				<name>spatialqrstanglemean</name>
+				<value></value>
+			</namedmeasurement>
+			<namedmeasurement>
+				<name>misizepct</name>
+				<value></value>
+			</namedmeasurement>
+			<namedmeasurement>
+				<name>misizesegments</name>
+				<value></value>
+			</namedmeasurement>
+		</crossleadmeasurements>
+		<groupmeasurements>
+		</groupmeasurements>
+		<leadmeasurements>
+			<leadmeasurement leadname="I" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="II" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="III" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="aVR" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="aVL" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="aVF" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="V1" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="V2" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="V3" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="V4" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="V5" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+			<leadmeasurement leadname="V6" pexistflag="False" pmeasflag="False" pnotchflag="False" qrsexistflag="False" qrsspikeflag="False" qrsmeasflag="False" qrsnotchflag="None" qrsdeltaflag="False" stexistflag="False" stmeasflag="False" texistflag="False" tmeasflag="False" tnotchflag="False" atrialpaceflag="False" ventpaceflag="False">
+				<pacepulses/>
+				<leadqualitystates qrsclippingflag="False" overrangeflag="False" measuredflag="False">
+					<inops><inop starttime="0" duration="500"/><inop starttime="500" duration="500"/><inop starttime="1000" duration="500"/><inop starttime="1500" duration="500"/><inop starttime="2000" duration="500"/><inop starttime="2500" duration="500"/><inop starttime="3000" duration="500"/><inop starttime="3500" duration="500"/><inop starttime="4000" duration="500"/><inop starttime="4500" duration="500"/><inop starttime="5000" duration="500"/><inop starttime="5500" duration="500"/><inop starttime="6000" duration="500"/><inop starttime="6500" duration="500"/><inop starttime="7000" duration="500"/><inop starttime="7500" duration="500"/><inop starttime="8000" duration="500"/><inop starttime="8500" duration="500"/><inop starttime="9000" duration="500"/><inop starttime="9500" duration="500"/><inop starttime="10000" duration="500"/><inop starttime="10500" duration="500"/></inops>
+					<saturations/>
+					<baseartifacts level="None"><baseartifact starttime="" duration="" level="None"/></baseartifacts>
+					<acartifacts level="None"><acartifact starttime="" duration="" level="None"/></acartifacts>
+					<muscleartifacts level="None"><muscleartifact starttime="" duration="" level="None"/></muscleartifacts>
+				</leadqualitystates>
+				<pamp>0</pamp>
+				<pdur>0</pdur>
+				<parea>0</parea>
+				<ppamp>0</ppamp>
+				<ppdur>0</ppdur>
+				<ppppdur>0</ppppdur>
+				<pparea>0</pparea>
+				<pppparea>0</pppparea>
+				<qamp>0</qamp>
+				<qdur>0</qdur>
+				<ramp>0</ramp>
+				<rdur>0</rdur>
+				<samp>0</samp>
+				<sdur>0</sdur>
+				<rpamp>0</rpamp>
+				<rpdur>0</rpdur>
+				<spamp>0</spamp>
+				<spdur>0</spdur>
+				<vat>0</vat>
+				<qrsppk>0</qrsppk>
+				<qrsdur>0</qrsdur>
+				<qrsarea>0</qrsarea>
+				<ston>0</ston>
+				<stmid>0</stmid>
+				<st80>0</st80>
+				<stend>0</stend>
+				<stdur>0</stdur>
+				<stslope>0</stslope>
+				<stshape>Unknown</stshape>
+				<tamp>0</tamp>
+				<tdur>0</tdur>
+				<tarea>0</tarea>
+				<tpamp>0</tpamp>
+				<tptpdur>0</tptpdur>
+				<tpdur>0</tpdur>
+				<tparea>0</tparea>
+				<tptparea>0</tptparea>
+				<print>0</print>
+				<prseg>0</prseg>
+				<qtint>0</qtint>
+				<namedmeasurement>
+					<name>stj</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st20</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st40</name>
+					<value></value>
+				</namedmeasurement>
+				<namedmeasurement>
+					<name>st60</name>
+					<value></value>
+				</namedmeasurement>
+			</leadmeasurement>
+		</leadmeasurements>
+		<configsettings>
+			<bradyhrlimit>50</bradyhrlimit>
+			<asianlvhcriteria>False</asianlvhcriteria>
+			<qualitystmts>0</qualitystmts>
+			<configsetting>
+				<name>borderlinestatementsensitivity</name>
+				<value>Include ALL</value>
+			</configsetting>
+			<configsetting>
+				<name>criticalvalues</name>
+				<value>Enabled</value>
+			</configsetting>
+			<configsetting>
+				<name>checkleadplacement</name>
+				<value>Enabled</value>
+			</configsetting>
+			<configsetting>
+				<name>printrr</name>
+				<value>Enabled</value>
+			</configsetting>
+			<configsetting>
+				<name>printqtcf</name>
+				<value>Enabled</value>
+			</configsetting>
+			<configsetting>
+				<name>checkleadplacementignored</name>
+				<value>Disabled</value>
+			</configsetting>
+			<configsetting>
+				<name>CulpritVesselDetection</name>
+				<value>Enabled</value>
+			</configsetting>
+			<configsetting>
+				<name>LHSUpperCase</name>
+				<value>Enabled</value>
+			</configsetting>
+			<configsetting>
+				<name>PrintSeverity</name>
+				<value>Enabled</value>
+			</configsetting>
+			<configsetting>
+				<name>STMap</name>
+				<value>Disabled</value>
+			</configsetting>
+			<configsetting>
+				<name></name>
+				<value></value>
+			</configsetting>
+			<configsetting>
+				<name>bradyhrlimit</name>
+				<value>Disabled</value>
+			</configsetting>
+			<configsetting>
+				<name>misize</name>
+				<value>Disabled</value>
+			</configsetting>
+			<configsetting>
+				<name>highspecacutemi</name>
+				<value>Disabled</value>
+			</configsetting>
+			<configsetting>
+				<name>qtcorrectionmethod</name>
+				<value>Bazetts</value>
+			</configsetting>
+			<configsetting>
+				<name>secondqtcmethod</name>
+				<value></value>
+			</configsetting>
+			<configsetting>
+				<name>wideqrsqtc</name>
+				<value>Disabled</value>
+			</configsetting>
+		</configsettings>
+	</internalmeasurements>
+	<interpretations>
+		<interpretation date="2022-05-28" time="14:15:28" criteriaversion="0B" criteriaversiondate="2008-04-24">
+			<interpretationdatastructure/>
+			<globalmeasurements editedflag="False">
+				<heartrate editedflag="False">0</heartrate>
+				<rrint editedflag="False">0</rrint>
+				<atrialrate editedflag="False">0</atrialrate>
+				<pdur editedflag="False">0</pdur>
+				<print editedflag="False"></print>
+				<qonset editedflag="False">0</qonset>
+				<qrsdur editedflag="False"></qrsdur>
+				<qtint editedflag="False"></qtint>
+				<qtcb editedflag="False">0</qtcb>
+				<qtcf editedflag="False">0</qtcf>
+				<qtco editedflag="False" methodname="Framingham" label="QTcFm"></qtco>
+				<qtco editedflag="False" methodname="Hodges" label="QTcH"></qtco>
+				<pfrontaxis editedflag="False">0</pfrontaxis>
+				<i40frontaxis editedflag="False"></i40frontaxis>
+				<t40frontaxis editedflag="False"></t40frontaxis>
+				<qrsfrontaxis editedflag="False">0</qrsfrontaxis>
+				<stfrontaxis editedflag="False"></stfrontaxis>
+				<tfrontaxis editedflag="False"></tfrontaxis>
+				<phorizaxis editedflag="False"></phorizaxis>
+				<i40horizaxis editedflag="False"></i40horizaxis>
+				<t40horizaxis editedflag="False"></t40horizaxis>
+				<qrshorizaxis editedflag="False"></qrshorizaxis>
+				<sthorizaxis editedflag="False"></sthorizaxis>
+				<thorizaxis editedflag="False"></thorizaxis>
+			</globalmeasurements>
+			<mdsignatureline>Unconfirmed Diagnosis</mdsignatureline>
+			<severity code="DE" id="5">- DEFECTIVE ECG -</severity>
+			<statement editedflag="False">
+				<statementcode></statementcode>
+				<leftstatement></leftstatement>
+				<rightstatement></rightstatement>
+			</statement>
+		</interpretation>
+	</interpretations>
+	<waveforms>
+		<parsedwaveforms dataencoding="Base64" compression="XLI" numberofleads="12" leadlabels="I II III aVR aVL aVF V1 V2 V3 V4 V5 V6" durationperchannel="11000" samplespersecond="500" resolution="5" signaloffset="0" signalsigned="True" bitspersample="16" hipass="0.05" lowpass="150" notchfiltered="False" notchfilterfreqs="0" donotfilter="True">FAEAAAEAAAAAEAQFAkDQRBUGQdCEJQpC0MQ1DkPRBEUSRNFEVRZF0YRlGkbRxHUeR9IEhSJI0kSV
+JknShKUqStLEtS5L0wTFMkzTRNU2TdOE5TpO08T1Pk/UBQVCUNRFFUZR1IUlSlLUxTVOU9UFRVJU
+1UVVVlXVhWVaVtXFdV5X1gWFYljWRXj/AFYABP9MRAW1blvXBcVyXNdF1XZd14Xlel7XxfV+X9gG
+BYJg2EYVhmHYhiWKYtjGNY5j2QZFkmTZRlWWZdmGZZpm2cZ1nmfaBoWiaNpGlaZp2oalqmraxrWu
+a9sGxbJs20bVtm3bhuW6btvG9b5v3AcFwnDcRxXGcdyHJcpy3Mc1znPdB0XJHgCHNAgeGbAD/wAU
+AQAAAQAAAAAQBAUCQNBEFQZB0IQlCkLQxDUOQ9EERRJE0URVFkXRhGUaRtHEdR5H0gSFIkjSRJUm
+SdKEpSpK0sS1LkvTBMUyTNNE1TZN04TlOk7TxPU+T9QFBUJQ1EUVRlHUhSVKUtTFNU5T1QVFUlTV
+RVVWVdWFZVpW1cV1XlfWBYViWNZFeP8AVgAE/0xEBbVuW9cFxXJc10XVdl3XheV6XtfF9X5f2AYF
+gmDYRhWGYdiGJYpi2MY1jmPZBkWSZNlGVZZl2YZlmmbZxnWeZ9oGhaJo2kaVpmnahqWqatrGta5r
+2wbFsmzbRtW2bduG5bpu28b1vm/cBwXCcNxHFcZx3IclynLcxzXOc90HRckeAIc0CB4ZsAP/ABQB
+AAABAAAAABAEBQJA0EQVBkHQhCUKQtDENQ5D0QRFEkTRRFUWRdGEZRpG0cR1HkfSBIUiSNJElSZJ
+0oSlKkrSxLUuS9MExTJM00TVNk3ThOU6TtPE9T5P1AUFQlDURRVGUdSFJUpS1MU1TlPVBUVSVNVF
+VVZV1YVlWlbVxXVeV9YFhWJY1kV4AT/WA/wBTEQFtW5b1wXFclzXRdV2XdeF5Xpe18X1fl/YBgWC
+YNhGFYZh2IYlimLYxjWOY9kGRZJk2UZVlmXZhmWaZtnGdZ5n2gaFomjaRpWmadqGpapq2sa1rmvb
+BsWybNtG1bZt24blum7bxvW+b9wHBcJw3EcVxnHchyXKctzHNc5z3QdFyQIHhzR4AhmwA/8AFAEA
+AAEAAAAAEAQFAkDQRBUGQdCEJQpC0MQ1DkPRBEUSRNFEVRZF0YRlGkbRxHUeR9IEhSJI0kSVJknS
+hKUqStLEtS5L0wTFMkzTRNU2TdOE5TpO08T1Pk/UBQVCUNRFFUZR1IUlSlLUxTVOU9UFRVJU1UVV
+VlXVhWVaVtXFdV5X1gWFYljWRXgBP5YD+AFMRAW1blvXBcVyXNdF1XZd14Xlel7XxfV+X9gGBYJg
+2EYVhmHYhiWKYtjGNY5j2QZFkmTZRlWWZdmGZZpm2cZ1nmfaBoWiaNpGlaZp2oalqmraxrWua9sG
+xbJs20bVtm3bhuW6btvG9b5v3AcFwnDcRxXGcdyHJcpy3Mc1znPdB0XJNAsHNLA0GbAD/wAUAQAA
+AQAAAAAQBAUCQNBEFQZB0IQlCkLQxDUOQ9EERRJE0URVFkXRhGUaRtHEdR5H0gSFIkjSRJUmSdKE
+pSpK0sS1LkvTBMUyTNNE1TZN04TlOk7TxPU+T9QFBUJQ1EUVRlHUhSVKUtTFNU5T1QVFUlTVRVVW
+VdWFZVpW1cV1XlfWBYViWNZFeAE/1gP8AUxEBbVuW9cFxXJc10XVdl3XheV6XtfF9X5f2AYFgmDY
+RhWGYdiGJYpi2MY1jmPZBkWSZNlGVZZl2YZlmmbZxnWeZ9oGhaJo2kaVpmnahqWqatrGta5r2wbF
+smzbRtW2bduG5bpu28b1vm/cBwXCcNxHFcZx3IclynLcxzXOc90HRckCB4c0eAIZsAP/AAoBAAAB
+AAAAABAEBQJA0EQVBkHQhCUKQtDENQ5D0QRFEkTRRFUWRdGEZRpG0cR1HkfSBIUiSNJElSZJ0oSl
+KkrSxLUuS9MExTJM00TVNk3ThOU6TtPE9T5P1AUFQlDURRVGUdSFJUpS1MU1TlPVBUVSVNVFVVZV
+1YVlWlbVxXVeV9YFhWJY1kWVZkoEBaVqWtbFtW5b1wXFclzXRdV2XdeF5Xpe18X1fl/YBgWCYNhG
+FYZh2IYlimLYxjWOY9kGRZJk2UZVlmXZhmWaZtnGdZ5n2gaFomjaRpWmadqGpapq2sa1rmvbBsWy
+bNtG1bZt24blum7bxvW+b9wHBcJw3EcVxnHchyXKctzHNc5z2MAD/wAUAQAAAQAAAAAQBAUCQNBE
+FQZB0IQlCkLQxDUOQ9EERRJE0URVFkXRhGUaRtHEdR5H0gSFIkjSRJUmSdKEpSpK0sS1LkvTBMUy
+TNNE1TZN04TlOk7TxPU+T9QFBUJQ1EUVRlHUhSVKUtTFNU5T1QVFUlTVRVVWVdWFZVpW1cV1XlfW
+BYViWNZFeP8AVgAE/0xEBbVuW9cFxXJc10XVdl3XheV6XtfF9X5f2AYFgmDYRhWGYdiGJYpi2MY1
+jmPZBkWSZNlGVZZl2YZlmmbZxnWeZ9oGhaJo2kaVpmnahqWqatrGta5r2wbFsmzbRtW2bduG5bpu
+28b1vm/cBwXCcNxHFcZx3IclynLcxzXOc90HRckeAIc0CB4ZsAP/ABQBAAABAAAAABAEBQJA0EQV
+BkHQhCUKQtDENQ5D0QRFEkTRRFUWRdGEZRpG0cR1HkfSBIUiSNJElSZJ0oSlKkrSxLUuS9MExTJM
+00TVNk3ThOU6TtPE9T5P1AUFQlDURRVGUdSFJUpS1MU1TlPVBUVSVNVFVVZV1YVlWlbVxXVeV9YF
+hWJY1kV4/wBWAAT/TEQFtW5b1wXFclzXRdV2XdeF5Xpe18X1fl/YBgWCYNhGFYZh2IYlimLYxjWO
+Y9kGRZJk2UZVlmXZhmWaZtnGdZ5n2gaFomjaRpWmadqGpapq2sa1rmvbBsWybNtG1bZt24blum7b
+xvW+b9wHBcJw3EcVxnHchyXKctzHNc5z3QdFyR4AhzQIHhmwA/8AFAEAAAEAAAAAEAQFAkDQRBUG
+QdCEJQpC0MQ1DkPRBEUSRNFEVRZF0YRlGkbRxHUeR9IEhSJI0kSVJknShKUqStLEtS5L0wTFMkzT
+RNU2TdOE5TpO08T1Pk/UBQVCUNRFFUZR1IUlSlLUxTVOU9UFRVJU1UVVVlXVhWVaVtXFdV5X1gWF
+YljWRXj/AFYABP9MRAW1blvXBcVyXNdF1XZd14Xlel7XxfV+X9gGBYJg2EYVhmHYhiWKYtjGNY5j
+2QZFkmTZRlWWZdmGZZpm2cZ1nmfaBoWiaNpGlaZp2oalqmraxrWua9sGxbJs20bVtm3bhuW6btvG
+9b5v3AcFwnDcRxXGcdyHJcpy3Mc1znPdB0XJHgCHNAgeGbAD/wAUAQAAAQAAAAAQBAUCQNBEFQZB
+0IQlCkLQxDUOQ9EERRJE0URVFkXRhGUaRtHEdR5H0gSFIkjSRJUmSdKEpSpK0sS1LkvTBMUyTNNE
+1TZN04TlOk7TxPU+T9QFBUJQ1EUVRlHUhSVKUtTFNU5T1QVFUlTVRVVWVdWFZVpW1cV1XlfWBYVi
+WNZFeP8AVgAE/0xEBbVuW9cFxXJc10XVdl3XheV6XtfF9X5f2AYFgmDYRhWGYdiGJYpi2MY1jmPZ
+BkWSZNlGVZZl2YZlmmbZxnWeZ9oGhaJo2kaVpmnahqWqatrGta5r2wbFsmzbRtW2bduG5bpu28b1
+vm/cBwXCcNxHFcZx3IclynLcxzXOc90HRckeAIc0CB4ZsAP/ABQBAAABAAAAABAEBQJA0EQVBkHQ
+hCUKQtDENQ5D0QRFEkTRRFUWRdGEZRpG0cR1HkfSBIUiSNJElSZJ0oSlKkrSxLUuS9MExTJM00TV
+Nk3ThOU6TtPE9T5P1AUFQlDURRVGUdSFJUpS1MU1TlPVBUVSVNVFVVZV1YVlWlbVxXVeV9YFhWJY
+1kV4/wBWAAT/TEQFtW5b1wXFclzXRdV2XdeF5Xpe18X1fl/YBgWCYNhGFYZh2IYlimLYxjWOY9kG
+RZJk2UZVlmXZhmWaZtnGdZ5n2gaFomjaRpWmadqGpapq2sa1rmvbBsWybNtG1bZt24blum7bxvW+
+b9wHBcJw3EcVxnHchyXKctzHNc5z3QdFyR4AhzQIHhmwA/8AFAEAAAEAAAAAEAQFAkDQRBUGQdCE
+JQpC0MQ1DkPRBEUSRNFEVRZF0YRlGkbRxHUeR9IEhSJI0kSVJknShKUqStLEtS5L0wTFMkzTRNU2
+TdOE5TpO08T1Pk/UBQVCUNRFFUZR1IUlSlLUxTVOU9UFRVJU1UVVVlXVhWVaVtXFdV5X1gWFYljW
+RXj/AFYABP9MRAW1blvXBcVyXNdF1XZd14Xlel7XxfV+X9gGBYJg2EYVhmHYhiWKYtjGNY5j2QZF
+kmTZRlWWZdmGZZpm2cZ1nmfaBoWiaNpGlaZp2oalqmraxrWua9sGxbJs20bVtm3bhuW6btvG9b5v
+3AcFwnDcRxXGcdyHJcpy3Mc1znPdB0XJHgCHNAgeGbAD/wAUAQAAAQAAAAAQBAUCQNBEFQZB0IQl
+CkLQxDUOQ9EERRJE0URVFkXRhGUaRtHEdR5H0gSFIkjSRJUmSdKEpSpK0sS1LkvTBMUyTNNE1TZN
+04TlOk7TxPU+T9QFBUJQ1EUVRlHUhSVKUtTFNU5T1QVFUlTVRVVWVdWFZVpW1cV1XlfWBYViWNZF
+eP8AVgAE/0xEBbVuW9cFxXJc10XVdl3XheV6XtfF9X5f2AYFgmDYRhWGYdiGJYpi2MY1jmPZBkWS
+ZNlGVZZl2YZlmmbZxnWeZ9oGhaJo2kaVpmnahqWqatrGta5r2wbFsmzbRtW2bduG5bpu28b1vm/c
+BwXCcNxHFcZx3IclynLcxzXOc90HRckeAIc0CB4ZsAP/ABQBAAABAAAAABAEBQJA0EQVBkHQhCUK
+QtDENQ5D0QRFEkTRRFUWRdGEZRpG0cR1HkfSBIUiSNJElSZJ0oSlKkrSxLUuS9MExTJM00TVNk3T
+hOU6TtPE9T5P1AUFQlDURRVGUdSFJUpS1MU1TlPVBUVSVNVFVVZV1YVlWlbVxXVeV9YFhWJY1kV4
+/wBWAAT/TEQFtW5b1wXFclzXRdV2XdeF5Xpe18X1fl/YBgWCYNhGFYZh2IYlimLYxjWOY9kGRZJk
+2UZVlmXZhmWaZtnGdZ5n2gaFomjaRpWmadqGpapq2sa1rmvbBsWybNtG1bZt24blum7bxvW+b9wH
+BcJw3EcVxnHchyXKctzHNc5z3QdFyR4AhzQIHhmwA/8AFAEAAAEAAAAAEAQFAkDQRBUGQdCEJQpC
+0MQ1DkPRBEUSRNFEVRZF0YRlGkbRxHUeR9IEhSJI0kSVJknShKUqStLEtS5L0wTFMkzTRNU2TdOE
+5TpO08T1Pk/UBQVCUNRFFUZR1IUlSlLUxTVOU9UFRVJU1UVVVlXVhWVaVtXFdV5X1gWFYljWRXj/
+AFYABP9MRAW1blvXBcVyXNdF1XZd14Xlel7XxfV+X9gGBYJg2EYVhmHYhiWKYtjGNY5j2QZFkmTZ
+RlWWZdmGZZpm2cZ1nmfaBoWiaNpGlaZp2oalqmraxrWua9sGxbJs20bVtm3bhuW6btvG9b5v3AcF
+wnDcRxXGcdyHJcpy3Mc1znPdB0XJHgCHNAgeGbAD/wAUAQAAAQAAAAAQBAUCQNBEFQZB0IQlCkLQ
+xDUOQ9EERRJE0URVFkXRhGUaRtHEdR5H0gSFIkjSRJUmSdKEpSpK0sS1LkvTBMUyTNNE1TZN04Tl
+Ok7TxPU+T9QFBUJQ1EUVRlHUhSVKUtTFNU5T1QVFUlTVRVVWVdWFZVpW1cV1XlfWBYViWNZFeP8A
+VgAE/0xEBbVuW9cFxXJc10XVdl3XheV6XtfF9X5f2AYFgmDYRhWGYdiGJYpi2MY1jmPZBkWSZNlG
+VZZl2YZlmmbZxnWeZ9oGhaJo2kaVpmnahqWqatrGta5r2wbFsmzbRtW2bduG5bpu28b1vm/cBwXC
+cNxHFcZx3IclynLcxzXOc90HRckeAIc0CB4ZsAP/AA==</parsedwaveforms>
+		<repbeats dataencoding="Base64" samplespersec="1000" resolution="1.0" repbeatmethod="mean">
+			<repbeat leadname="I">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="II">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="III">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="aVR">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="aVL">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="aVF">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="V1">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="V2">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="V3">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="V4">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="V5">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+			<repbeat leadname="V6">
+				<pdur>0</pdur>
+				<print>0</print>
+				<qonset>0</qonset>
+				<qrsdur>0</qrsdur>
+				<tonset>0</tonset>
+				<qtint>0</qtint>
+				<waveform duration="1200">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA</waveform>
+			</repbeat>
+		</repbeats>
+	</waveforms>
+</restingecgdata>
