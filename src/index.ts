@@ -80,7 +80,7 @@ class PhilipsECG implements Result, ECG {
         const waveformData = ecgData.restingecgdata.waveforms[0].parsedwaveforms[0]
         let { dataencoding, compression, numberofleads, leadlabels } = waveformData.$
         numberofleads = parseInt(numberofleads)
-
+        leadlabels = leadlabels.split(" ")
         // Patient-related Data
         const patientData = ecgData.restingecgdata.patient[0].generalpatientdata[0]
         let { patientid } = patientData
@@ -116,7 +116,7 @@ class PhilipsECG implements Result, ECG {
 }
 
 
-fs.readFile('./sample/sample.xml', (error, data) => {
+fs.readFile('./sample/meaning.xml', (error, data) => {
     if (error) {
         console.log(error)
         return
@@ -125,11 +125,48 @@ fs.readFile('./sample/sample.xml', (error, data) => {
 
     const reader = new XLI(tc10.Parse().ecgData)
 
-    reader.getLeads((error: Error, data: any) => {
+    const numberOfLeads: any[] = tc10.Parse().numberOfLeads
+    const leadLabels: any[] = tc10.Parse().leadLabels
+
+    reader.getLeads((error: Error, leads: any) => {
         if (error) {
             console.log(error)
             return
         }
-        console.log(data)
+
+        let leadI = leads[0]
+        let leadII = leads[1]
+        let leadIII = leads[2]
+        let leadAVR = leads[3]
+        let leadAVL = leads[4]
+        let leadAVF = leads[5]
+
+        /// Lead III
+        for (let i = 0; i < leadIII.length; i++) {
+            leadIII[i] = leadII[i] - leadI[i] - leadIII[i]
+        }
+
+        // Lead aVR
+        for (let i = 0; i < leadAVR.length; i++) {
+            leadAVR[i] = -leadAVR[i] - ((leadI[i] + leadII[i]) / 2)
+        }
+
+        // Lead aVL
+        for (let i = 0; i < leadAVL.length; i++) {
+            leadAVL[i] = (leadI[i] + leadIII[i]) / 2 - leadAVL[i]
+        }
+
+        // Lead aVF
+        for (let i = 0; i < leadAVF.length; i++) {
+            leadAVF[i] = (leadII[i] + leadIII[i]) / 2 - leadAVF[i]
+        }
+
+        if (numberOfLeads <= leads.length) {
+            leadLabels.map((label, index) => {
+                console.log(label, leads[index])
+            })
+        }
+
+
     })
 })
