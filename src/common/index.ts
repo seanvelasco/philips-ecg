@@ -1,7 +1,7 @@
 class Code {
 
-    code : any
-    value : any
+    code: any
+    value: any
 
     constructor(code: any, value: any) {
         this.code = code;

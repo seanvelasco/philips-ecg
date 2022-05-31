@@ -18,27 +18,27 @@ type waveformData = {
     timeUnit: string,
     duration: string,
     durationUnit: string,
-    plot : waveformPlot[],
+    plot: waveformPlot[],
 }
 
 type waveformPlot = {
-    leadI : number[],
-    leadII : number[],
-    leadIII : number[],
-    leadAVR : number[],
-    leadAVL : number[],
-    leadAVF : number[],
-    leadV1 : number[],
-    leadV2 : number[],
-    leadV3 : number[],
-    leadV4 : number[],
-    leadV5 : number[],
-    leadV6 : number[],
+    leadI: number[],
+    leadII: number[],
+    leadIII: number[],
+    leadAVR: number[],
+    leadAVL: number[],
+    leadAVF: number[],
+    leadV1: number[],
+    leadV2: number[],
+    leadV3: number[],
+    leadV4: number[],
+    leadV5: number[],
+    leadV6: number[],
 }
 
 class PhilipsECG implements Result, ECG {
 
-    data : Buffer
+    data: Buffer
     barcode: string = ''
     waveformData: waveformData = {
         voltage: '',
@@ -50,7 +50,7 @@ class PhilipsECG implements Result, ECG {
         plot: [],
     }
 
-    constructor(data : Buffer) {
+    constructor(data: Buffer) {
         this.data = data
     }
 
@@ -74,7 +74,7 @@ class PhilipsECG implements Result, ECG {
     Parse() {
 
         // Parsed ECG data object
-        const ecgData: {[key: string]: any} = this.parseXML() || {}
+        const ecgData: { [key: string]: any } = this.parseXML() || {}
 
         // Waveform-related data
         const waveformData = ecgData.restingecgdata.waveforms[0].parsedwaveforms[0]
@@ -111,10 +111,9 @@ class PhilipsECG implements Result, ECG {
             "leadLabels": leadlabels,
             "ecgData": ecgBuffer
         }
-        
+
     }
 }
-
 
 fs.readFile('./sample/meaning.xml', (error, data) => {
     if (error) {
@@ -166,7 +165,5 @@ fs.readFile('./sample/meaning.xml', (error, data) => {
                 console.log(label, leads[index])
             })
         }
-
-
     })
 })

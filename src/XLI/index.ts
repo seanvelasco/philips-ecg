@@ -5,11 +5,11 @@ class XLI {
     offset: number = 0
     input: Buffer
 
-    constructor (input: Buffer) {
+    constructor(input: Buffer) {
         this.input = input
     }
 
-    private decodeDeltas (deltas: any, lastValue: any): any {
+    private decodeDeltas(deltas: any, lastValue: any): any {
         let values = deltas.slice()
         let x = values[0]
         let y = values[1]
@@ -23,7 +23,7 @@ class XLI {
         return values
     }
 
-    private unpack (data: Buffer, callback: CallableFunction): any {
+    private unpack(data: Buffer, callback: CallableFunction): any {
         // console.log('bytes', data)
         ///console.log(data)
         const unpack = () => {
@@ -42,10 +42,10 @@ class XLI {
         })
     }
 
-    private readChunk (callback: CallableFunction) {
+    private readChunk(callback: CallableFunction) {
         let header = this.input.slice(this.offset + 0, this.offset + 8)
         let size = header.readInt32LE(0) // chuck size
-        let code = header.readInt16LE(4) 
+        let code = header.readInt16LE(4)
         let delta = header.readInt16LE(6)
         let compressedBlock = this.input.slice(this.offset + 8, this.offset + 8 + size)
         let reader = new LZW(compressedBlock)
@@ -69,7 +69,7 @@ class XLI {
         })
     }
 
-    getLeads (callback: CallableFunction) {
+    getLeads(callback: CallableFunction) {
         let leads: any[] = []
         const next = () => {
             if (this.offset < this.input.length) {

@@ -9,20 +9,20 @@ class LZW {
     buffer = 0
     previous = []
     nextCode = 256
-    strings: {[key: string]: any} = {}
+    strings: { [key: string]: any } = {}
     data: Buffer
     output = []
     codesRead = 0
     goingNext = false
 
-    constructor (data: Buffer) {
+    constructor(data: Buffer) {
         this.data = data;
         for (let i = 0; i < this.nextCode; ++i) {
             this.strings[i] = new Code(i, i);
         }
     }
 
-    readCode () {
+    readCode() {
         let EOF = false;
         while (this.bitCount <= 24) {
             if (this.offset >= this.data.length) {
@@ -46,7 +46,7 @@ class LZW {
 
     decode(callback: CallableFunction) {
         let code
-        let value : any[]
+        let value: any[]
         let output: any = []
         let codesRead = 0
         let goingNext = false
@@ -82,14 +82,14 @@ class LZW {
                 }
 
             }
-                if (!goingNext) {
-                    process.nextTick(() => {
-                        return callback(null, Buffer.from(output))
-                    })
-                }
-                else {
-                    setImmediate(next)
-                }
+            if (!goingNext) {
+                process.nextTick(() => {
+                    return callback(null, Buffer.from(output))
+                })
+            }
+            else {
+                setImmediate(next)
+            }
         }
         return next()
     }
